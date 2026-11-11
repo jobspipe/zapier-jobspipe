@@ -26,6 +26,6 @@
     "zapier-platform-cli": "^19.3.0"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=22"
   }
 }

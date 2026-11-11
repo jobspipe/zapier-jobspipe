@@ -33,7 +33,7 @@ A Zapier Platform CLI integration for [JobsPipe](https://jobspipe.dev) - search 
 ## Installation & Setup
 
 ### Prerequisites
-- Node.js 18 or higher
+- Node.js 22 or higher (required by zapier-platform-cli 19.3.0)
 - npm or yarn
 - Zapier Platform CLI (`npm install -g zapier-platform-cli`)
 
