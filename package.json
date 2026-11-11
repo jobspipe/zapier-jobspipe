@@ -1,0 +1,31 @@
+{
+  "name": "zapier-jobspipe",
+  "version": "1.0.0",
+  "description": "Zapier integration for JobsPipe - Search live job postings from 30+ job boards",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --testTimeout=10000 --coverage",
+    "validate": "npx zapier-platform-cli validate"
+  },
+  "keywords": [
+    "zapier",
+    "jobspipe",
+    "jobs",
+    "recruiting",
+    "hiring",
+    "job-search"
+  ],
+  "author": "JobsPipe",
+  "license": "MIT",
+  "dependencies": {
+    "zapier-platform-core": "19.3.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nock": "^13.5.0",
+    "zapier-platform-cli": "^19.3.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
