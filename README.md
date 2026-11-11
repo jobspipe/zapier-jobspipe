@@ -1,5 +1,7 @@
 # JobsPipe Zapier Integration
 
+<img src="logo.png" alt="JobsPipe Logo" width="128" height="128" />
+
 A Zapier Platform CLI integration for [JobsPipe](https://jobspipe.dev) - search live job postings from 30+ job boards and ATS feeds through a single normalized API.
 
 [![CI](https://github.com/jobspipe/zapier-jobspipe/workflows/CI/badge.svg)](https://github.com/jobspipe/zapier-jobspipe/actions)
@@ -182,7 +184,7 @@ Before submitting for public review, ensure:
 ### Required
 - [x] **App Description**: Clear description of JobsPipe's functionality
 - [x] **Category**: Recruiting/HR (primary), Sales CRM (secondary)
-- [x] **Logo**: High-quality app icon (placeholder note in this README - add 256x256 PNG)
+- [x] **Logo**: High-quality app icon at `logo.png` (1024x1024 PNG/JPEG)
 - [x] **Authentication**: API key auth with connection test
 - [x] **Triggers**: At least one trigger (New Job Matching Search)
 - [x] **Searches**: At least two searches (Find Jobs, Find Company)
@@ -201,7 +203,7 @@ Before submitting for public review, ensure:
 - [ ] **Webhooks**: Future enhancement (JobsPipe supports webhooks for job.closed events)
 
 ### Before Submission
-1. **Add App Logo**: Place a 256x256 PNG logo at `logo.png` and upload to Zapier platform
+1. ✅ **Add App Logo**: Logo available at `logo.png` - upload to Zapier platform during submission
 2. **Test Thoroughly**: Create several test Zaps using each trigger and search
 3. **Review API Usage**: Ensure API calls are efficient and respect rate limits
 4. **Update App Description**: Finalize the public-facing description on Zapier platform

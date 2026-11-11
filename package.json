@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --testTimeout=10000 --coverage",
-    "validate": "zapier validate"
+    "validate": "npx zapier-platform-cli validate"
   },
   "keywords": [
     "zapier",
